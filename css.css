@@ -93,23 +93,25 @@ div.caption {
 .dot {
     cursor: pointer;
     height: 50px;
-    width: 50px;
+    min-width: 50px;
     margin: 5px 5px 5px 5px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background-color: #aaa;
+    opacity: 0.3;
+    border-radius: 25px;
     transition: background-color 0.6s ease;
     display: inline-block;
     text-align: center;
 }
 
     .dot * {
-        height: 50px;
-        border-radius: 50%;
-        width: 50px;
+        max-height: 50px;
+        border-radius: 25px;
+        min-width: 50px;
     }
 
     .active, .dot:hover {
-        background-color: #717171;
+        background-color: #eee;
+        opacity: 0.7;
     }
 
 /* Fading animation */
