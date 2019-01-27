@@ -52,6 +52,7 @@ to test themselves in debates on different subjects.
     <link rel="stylesheet" href="/css/vendor-a74f0d200ce8bace194988aa9195b6c6.css?vsn=d">
     <link rel="stylesheet" href="/css/app-9ecc41c069b865a5e451eb63eb05e9c3.css?vsn=d">
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="bullish_css.css">
 
     <script>
         (function () {
@@ -71,156 +72,155 @@ to test themselves in debates on different subjects.
 
 <body itemscope itemtype="http://schema.org/WebPage">
     <div id="main-container" class="">
-        <header class="main-header">
-            <div class="main-header__inner layout-content">
+    <header class="main-header">
+        <div class="main-header__inner layout-content">
 
-                <div class="main-header__logo">
-                    <a href="/" class="main-header__logo-link" title="Go to the main page">
-                        <img src="/images/site_logo-cb0f65b22e684079b60a062f05f12145.png?vsn=d" class="main-header__logo-image" alt="DebateArt.com" />
-                    </a>
-                </div>
+            <div class="main-header__logo">
+                <a href="/" class="main-header__logo-link" title="Go to the main page">
+                    <img src="/images/site_logo-cb0f65b22e684079b60a062f05f12145.png?vsn=d" class="main-header__logo-image" alt="DebateArt.com" />
+                </a>
+            </div>
 
-                <div class="main-header__items-separator"></div>
+            <div class="main-header__items-separator"></div>
 
-                <div class="main-header__navigation-links">
-                    <ul class="main-header__navigation-links-list">
-                        <li class="main-header__navigation-list-item">
-                            <a class="main-header__navigation-link" href="/debates" title="Go to the debates">Debates</a>
+            <div class="main-header__navigation-links">
+                <ul class="main-header__navigation-links-list">
+                    <li class="main-header__navigation-list-item">
+                        <a class="main-header__navigation-link" href="/debates" title="Go to the debates">Debates</a>
+                    </li>
+                    <li class="main-header__navigation-list-item">
+                        <a class="main-header__navigation-link" href="/forum" title="Go to the forum">Forum</a>
+                    </li>
+                    <li class="main-header__navigation-list-item">
+                        <a class="main-header__navigation-link" href="/leaderboard/debates" title="Go to the leaderboard">Leaderboards</a>
+                    </li>
+                    <li class="main-header__navigation-list-item">
+                        <a class="main-header__navigation-link" href="https://medium.com/debateart-com" title="Go to the blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-header__items-separator"></div>
+
+            <div class="main-header__search">
+                <form accept-charset="UTF-8" action="/debates" class="main-header__search-form" method="get">
+                    <input name="_utf8" type="hidden" value="✓">        <input autocomplete="off" class="input main-header__search-input" maxlength="70" name="search_text" placeholder="Find debates" type="text">
+
+                    <button class="main-header__search-button" type="submit">
+                        <img src="/images/icons/zoom-67409952e1d2b2cbcfae374d06e476f6.svg?vsn=d" alt="Magnifying glass" />
+                    </button>
+                </form>
+            </div>
+
+            <div class="main-header__items-separator"></div>
+
+
+            <div class="main-header__icon-links">
+                <a href="/office/favorites/debates"
+                   class="main-header__icon-link"
+                   title="Favorites">
+                    <img src="/images/header/favorite-3941411f6aa7ba912105430ebb565c87.svg?vsn=d"
+                         class="main-header__icon-link-image"
+                         alt="Yellow star" />
+                </a>
+
+                <a href="/office/conversations"
+                   class="main-header__icon-link"
+                   title="Messages">
+                    <img src="/images/header/mail-2a2adda976bc231bdc3f5e7a5f7dc748.svg?vsn=d"
+                         class="main-header__icon-link-image"
+                         alt="Green envelope" />
+                    <div class="main-header__icon-link-attention-seeker "></div>
+                </a>
+
+                <a href="/office/activities/all"
+                   class="main-header__icon-link"
+                   title="Activities">
+                    <img src="/images/header/notification-cda42c62662529d71361aa12721c9f5a.svg?vsn=d"
+                         class="main-header__icon-link-image"
+                         alt="Blue bell" />
+                    <div class="main-header__icon-link-attention-seeker "></div>
+                </a>
+            </div>
+
+            <div class="main-header__items-separator"></div>
+
+            <div class="main-header__profile">
+                <a href="#" class="main-header__profile-avatar-link">
+                    <div class="main-header__profile-avatar-wrap">
+                        <img alt="Bullish avatar" class="main-header__profile-avatar-image" src="https://files.debateart.com/profile_avatars/192/kajpnlwpbmyav3dpsy42bxxwpzqdfhy4.jpg">            <img alt="Avatar loading image" class="main-header__profile-avatar-loader" src="/images/profile_avatar_loader-96756406e0ce511872d4acd6569f597c.gif?vsn=d">
+                    </div>
+                </a>
+
+                <div class="main-header-dropdown">
+                    <ul class="main-header-dropdown__menu">
+
+                        <li class="main-header-dropdown__menu-item main-header-dropdown__menu-item--with-separator">
+                            <a class="main-header-dropdown__link main-header-dropdown__link--profile-link"
+                               href="/office/profile/edit">
+                                <div class="main-header-dropdown__profile-name">
+                                    Bullish
+                                </div>
+                                <div class="main-header-dropdown__profile-name-hint">
+                                    Edit profile
+                                </div>
+                            </a>
                         </li>
-                        <li class="main-header__navigation-list-item">
-                            <a class="main-header__navigation-link" href="/forum" title="Go to the forum">Forum</a>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/activities/all"><i class="fa fa-bell"></i>Activities<span class="main-header-dropdown__link-counter main-header-dropdown__link-counter--zero">0</span></a>
                         </li>
-                        <li class="main-header__navigation-list-item">
-                            <a class="main-header__navigation-link" href="/leaderboard/debates" title="Go to the leaderboard">Leaderboards</a>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/favorites/debates"><i class="fa fa-star"></i>Favorites</a>
                         </li>
-                        <li class="main-header__navigation-list-item">
-                            <a class="main-header__navigation-link" href="https://medium.com/debateart-com" title="Go to the blog">Blog</a>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/friends"><i class="fa fa-user-friends"></i>Friends</a>
                         </li>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/debates"><i class="fa fa-comments"></i>Debates</a>
+                        </li>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/forum_topics"><i class="fa fa-quote-right"></i>Forum</a>
+                        </li>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/conversations"><i class="fa fa-envelope"></i>Messages<span class="main-header-dropdown__link-counter main-header-dropdown__link-counter--zero">0</span></a>
+                        </li>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" href="/office/notifications_list/debates/edit"><i class="fa fa-exclamation-triangle"></i>Notification settings</a>
+                        </li>
+
+                        <li class="main-header-dropdown__menu-item">
+                            <a class="main-header-dropdown__link" data-csrf="djwGZl0EJToPHkYxNidaEQxSMhsmJgAANXMVhKSUd5+vYU1WF8GsrA==" data-method="delete" data-to="/api/logout" href="#" id="main-header-dropdown__logout-link" rel="nofollow"><i class="fa fa-times"></i>Log out</a>
+                        </li>
+
                     </ul>
                 </div>
-
-                <div class="main-header__items-separator"></div>
-
-                <div class="main-header__search">
-                    <form accept-charset="UTF-8" action="/debates" class="main-header__search-form" method="get">
-                        <input name="_utf8" type="hidden" value="✓">        <input autocomplete="off" class="input main-header__search-input" maxlength="70" name="search_text" placeholder="Find debates" type="text">
-
-                        <button class="main-header__search-button" type="submit">
-                            <img src="/images/icons/zoom-67409952e1d2b2cbcfae374d06e476f6.svg?vsn=d" alt="Magnifying glass" />
-                        </button>
-                    </form>
-                </div>
-
-                <div class="main-header__items-separator"></div>
-
-
-                <div class="main-header__icon-links">
-                    <a href="/office/favorites/debates"
-                       class="main-header__icon-link"
-                       title="Favorites">
-                        <img src="/images/header/favorite-3941411f6aa7ba912105430ebb565c87.svg?vsn=d"
-                             class="main-header__icon-link-image"
-                             alt="Yellow star" />
-                    </a>
-
-                    <a href="/office/conversations"
-                       class="main-header__icon-link"
-                       title="Messages">
-                        <img src="/images/header/mail-2a2adda976bc231bdc3f5e7a5f7dc748.svg?vsn=d"
-                             class="main-header__icon-link-image"
-                             alt="Green envelope" />
-                        <div class="main-header__icon-link-attention-seeker "></div>
-                    </a>
-
-                    <a href="/office/activities/all"
-                       class="main-header__icon-link"
-                       title="Activities">
-                        <img src="/images/header/notification-cda42c62662529d71361aa12721c9f5a.svg?vsn=d"
-                             class="main-header__icon-link-image"
-                             alt="Blue bell" />
-                        <div class="main-header__icon-link-attention-seeker "></div>
-                    </a>
-                </div>
-
-                <div class="main-header__items-separator"></div>
-
-                <div class="main-header__profile">
-                    <a href="#" class="main-header__profile-avatar-link">
-                        <div class="main-header__profile-avatar-wrap">
-                            <img alt="Bullish avatar" class="main-header__profile-avatar-image" src="https://files.debateart.com/profile_avatars/192/kajpnlwpbmyav3dpsy42bxxwpzqdfhy4.jpg">            <img alt="Avatar loading image" class="main-header__profile-avatar-loader" src="/images/profile_avatar_loader-96756406e0ce511872d4acd6569f597c.gif?vsn=d">
-                        </div>
-                    </a>
-
-                    <div class="main-header-dropdown">
-                        <ul class="main-header-dropdown__menu">
-
-                            <li class="main-header-dropdown__menu-item main-header-dropdown__menu-item--with-separator">
-                                <a class="main-header-dropdown__link main-header-dropdown__link--profile-link"
-                                   href="/office/profile/edit">
-                                    <div class="main-header-dropdown__profile-name">
-                                        Bullish
-                                    </div>
-                                    <div class="main-header-dropdown__profile-name-hint">
-                                        Edit profile
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/activities/all"><i class="fa fa-bell"></i>Activities<span class="main-header-dropdown__link-counter main-header-dropdown__link-counter--zero">0</span></a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/favorites/debates"><i class="fa fa-star"></i>Favorites</a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/friends"><i class="fa fa-user-friends"></i>Friends</a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/debates"><i class="fa fa-comments"></i>Debates</a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/forum_topics"><i class="fa fa-quote-right"></i>Forum</a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/conversations"><i class="fa fa-envelope"></i>Messages<span class="main-header-dropdown__link-counter main-header-dropdown__link-counter--zero">0</span></a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" href="/office/notifications_list/debates/edit"><i class="fa fa-exclamation-triangle"></i>Notification settings</a>
-                            </li>
-
-                            <li class="main-header-dropdown__menu-item">
-                                <a class="main-header-dropdown__link" data-csrf="djwGZl0EJToPHkYxNidaEQxSMhsmJgAANXMVhKSUd5+vYU1WF8GsrA==" data-method="delete" data-to="/api/logout" href="#" id="main-header-dropdown__logout-link" rel="nofollow"><i class="fa fa-times"></i>Log out</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-
-
             </div>
-        </header>
 
-        <!-- changes start here -->
+
+        </div>
+    </header>
+
+    <!-- changes start here -->
         <main id="main-content">
             <div class="layout-content">
                 <div class="main-page">
                     <div class="main-page__block">
                         <h1 class="main-page__main-header"> Online debating platform </h1>
 
-                        <div class="text">
+                        <div class="block-text">
                             <p class="main-page__foreword">
                                 DebateArt.com is a new online platform created with the purpose of giving anyone a chance
                                 to argue their views, see debates on a large number of different subjects, and
                                 practice their articulation and eloquence.
                             </p>
-                        </div>
-                        <div class="media">
+                        </div><div class="block-media">
                             <a href="">
                                 <div class="media-big-button">
                                     Join DebateArt/Start a Debate
