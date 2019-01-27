@@ -9,9 +9,10 @@
         display: inline-block;
         text-align: center;
         vertical-align: middle;
+        position: relative;
+        padding: 20px 80px 20px 80px;
         min-height: 150px;
         width: 50%;
-        padding: 20px 80px 20px 80px;
         background-color: lightgray;
     }
 
@@ -19,9 +20,10 @@
         display: inline-block;
         text-align: center;
         vertical-align: middle;
+        position: relative;
+        padding: 20px 80px 20px 80px;
         min-height: 150px;
         width: 50%;
-        padding: 20px 80px 20px 80px;
         background-color: lightgray;
     }
 

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="bullish_css.css">
+</head>
+
+<html>
+<body>
+    <!-- changes start here -->
+    <main id="main-content">
+        <div class="layout-content">
+            <div class="main-page">
+                <div class="main-page__block">
+                    <h1 class="main-page__main-header"> Online debating platform </h1>
+
+                    <div class="block-text">
+                        <p class="main-page__foreword">
+                            DebateArt.com is a new online platform created with the purpose of giving anyone a chance
+                            to argue their views, see debates on a large number of different subjects, and
+                            practice their articulation and eloquence.
+                        </p>
+                    </div><div class="block-media">
+                        <a href="">
+                            <div class="media-big-button">
+                                Join DebateArt/Start a Debate
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--slide show-->
+
+                <div class="main-page__block">
+                    <h2 class="main-page__sub-header"> Site content </h2>
+
+                    <div class="slideshow-container">
+                        <!-- circles -->
+                        <div style="position: absolute; width: 100%; display: inline-block; text-align: center; padding: 10px 10px 10px 10px; z-index:1;">
+                            <div class="dot" onclick="currentSlide(1)"><img src="zodcrop.jpg" alt="p1" /></div>
+                            <div class="dot" onclick="currentSlide(2)"><div class="dot-text"> Featured debate </div></div>
+                            <div class="dot" onclick="currentSlide(3)"><div class="dot-text"> Text </div></div>
+                        </div>
+                        <!-- slide 1: fancy stock photo -->
+                        <div class="mySlides fade">
+                            <img src="zodcrop.jpg" style="width:100%">
+                            <div class="caption">Fancy stock photo </div>
+                        </div>
+
+                        <!-- slide 2: featured debate -->
+                        <div class="mySlides fade">
+                            <div class="debate_content">
+                                <div class="profile" style="display: table-cell; width: 15%">
+                                    <img src="zodcrop.jpg" alt="Profile pic of debater 1">
+                                </div>
+                                <div style="display: table-cell; width: 70%; color: white">Debate topic text</div>
+                                <div class="profile" style="display: table-cell; width: 15%">
+                                    <img src="zodcrop.jpg" alt="Profile pic of debater 2">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slide 3: call to action -->
+                        <div class="mySlides fade">
+                            <img src="zodcrop.jpg" style="width:100%">
+                        </div>
+
+                    </div>
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    // Next/previous controls
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    // Thumbnail image controls
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = slides.length }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                    }
+                </script>
+
+                <br>
+                <!--/slide show-->
+                <div class="main-page__block">
+                    <h2 class="main-page__sub-header"> Anything besides debates? </h2>
+
+                    <div class="main-page__perks">
+
+                        <div class="main-page__perk">
+                            <div class="main-page__perk-icon-wrap">
+                                <i class="fa fa-globe"></i>
+                            </div>
+
+                            <div class="main-page__perk-name"> Social networks </div>
+
+                            <p class="main-page__perk-text">
+                                Social networks communities with even more content and people.
+                            </p>
+                        </div>
+
+                        <div class="main-page__perk">
+                            <div class="main-page__perk-icon-wrap">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+
+                            <div class="main-page__perk-name"> General chat </div>
+
+                            <p class="main-page__perk-text">
+                                General chat where it's always easy to meet smart and interesting people.
+                            </p>
+                        </div>
+
+                        <div class="main-page__perk">
+                            <div class="main-page__perk-icon-wrap">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+
+                            <div class="main-page__perk-name"> Forum </div>
+
+                            <p class="main-page__perk-text">
+                                Discussions on any subject without any limitations and formats.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- -->
+    <script src="/js/vendor-a2174c1b77a78def102d8037df02689b.js?vsn=d"></script>
+    <script src="/js/squire-291d9a507024c021f1e7cd95d812e031.js?vsn=d"></script>
+    <script src="/js/app-a5ca4f3b1dcd9804ecc6cb143f8c5cee.js?vsn=d"></script>
+    <script src="/js/elm-8abc53d51073dc57812f785a9d00db65.js?vsn=d"></script>
+    <script type="application/ld+json">
+        {"url":"https://www.debateart.com","sameAs":["https://www.facebook.com/groups/DebateArtCom","https://twitter.com/DebateArtCom"],"name":"DebateArt.com","logo":"https://www.debateart.com/images/organization_logo-54263331a6e3abaa3a3f63c32cd514bb.png?vsn=d","@type":"Organization","@context":"http://schema.org"}
+    </script>
+    <!-- Yandex.Metrika counter
+    <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49864282 = new Ya.Metrika2({
+                    id:49864282,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/49864282" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+</html>
